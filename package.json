@@ -1,0 +1,19 @@
+{
+  "name": "@vigneshpa/parcel-transformer-html-literals",
+  "version": "0.5.0",
+  "type": "commonjs",
+  "description": "Minify html and css template literals",
+  "author": "Vignesh",
+  "main": "index.cjs",
+  "engines": {
+    "parcel": "^2.6.1"
+  },
+  "dependencies": {
+    "minify-html-literals": "^1.3.5"
+  },
+  "peerDependencies": {
+    "@parcel/plugin": "^2.6.2",
+    "@parcel/utils": "^2.6.2",
+    "@parcel/source-map": "^2.0.0"
+  }
+}
